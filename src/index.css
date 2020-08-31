@@ -1,13 +1,68 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  padding: 0;
+  width: 100%;
+  height: 100%;
 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  
+  
+}
+.principal{
+  background-color: #00918e;
+  width: 700px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.editor-title{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+
+}
+#editor{
+  width:500px;
+  height: 100px;
+  border-radius: 10px;
+   
+}
+.preview-title{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+}
+#preview{
+  background-color: #ffdc34;
+  width: 500px;
+  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+/* ---------------- Header --------------- */
+#div-header{
+  width: 700px;
+  background-color: #110133;
+  border-radius: 10px;
+}
+#title-header{
+  font-family: 'Bangers', cursive;
+  color: #ffffff;
+  text-align: center;
 }
